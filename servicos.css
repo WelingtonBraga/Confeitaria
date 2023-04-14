@@ -1,0 +1,36 @@
+body{
+	background-image: linear-gradient(45deg, cyan, yellow);
+}
+
+@media screen and (min-width: 600px) {
+.full-width-img {
+margin: auto;
+width: 90%;
+}
+
+.bolos{
+	max-width: 600px;
+	margin: auto;
+	font-family: arial;
+	color: grey;
+}
+
+.ingredientes{
+	color: black;
+}
+
+.indice1{
+	display: flex;
+	margin: 20px;
+	padding-letf: 2rem;
+	text-decoration: none;
+
+}
+
+.indice2{
+	list-style-type: none;
+	padding-left: 15rem;
+	color: white;
+	text-decoration: none;
+
+}
